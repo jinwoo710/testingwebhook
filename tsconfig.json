@@ -11,7 +11,8 @@
     "rootDir": "./",
     "experimentalDecorators": true,
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    
   }
   ,
   "include": ["./src/**/*.ts"]

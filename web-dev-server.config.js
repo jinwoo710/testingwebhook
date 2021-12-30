@@ -2,7 +2,7 @@ const { rollupAdapter } = require('@web/dev-server-rollup');
 const json =  require('@rollup/plugin-json');
 
 module.exports = {
-    port: 8000,
+    port: 8001,
     nodeResolve: true,
     open: true,
     watch: true,
