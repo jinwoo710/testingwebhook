@@ -1,11 +1,10 @@
 import { css, customElement, html, LitElement, property } from "lit-element";
 
-
 @customElement('link-button')
 export class LinkButton extends LitElement {
 
   @property({ type: String }) title = ''
-  @property() iconColor = ''
+  @property({type:String}) iconColor = ''
 
 
   static styles = css`
@@ -44,7 +43,17 @@ export class LinkButton extends LitElement {
       font-size: 18px;
       font-weight: 600;
     }
+
+    .nana {
+  width: 300px;
+  height: 120px;
+  outline: 2px solid red;
+  background-image: url("./BackgroundImage.svg");
+}
+
     `
+
+    
   render() {
     return html`
     <style>
@@ -53,7 +62,9 @@ export class LinkButton extends LitElement {
       }
     </style>
     <button class="container" onClick="location.href='/'">
-      <div class="icon"> </div>
+      <div class="icon">
+      <img class="nana"/>
+    </div>
       <div class="textBox">
       <span class="title">
       ${this.title}

@@ -1,4 +1,4 @@
-import { LitElement, html, css,customElement,property ,internalProperty, CSSResultArray, CSSResultOrNative} from 'lit-element';
+import { LitElement, html, css,customElement,property, CSSResultArray, CSSResultOrNative} from 'lit-element';
 
 @customElement('third-slider')
 class MyElement extends LitElement {
@@ -47,7 +47,7 @@ class MyElement extends LitElement {
 
   @property({type:Boolean}) looping = true;
   @property({type:Number}) _offset = 0;
-  @internalProperty() private _firstIndex = 0;
+  @property() private _firstIndex = 0;
 
   static get styles() {
     return css`

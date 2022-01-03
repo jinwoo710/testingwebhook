@@ -123,9 +123,9 @@ export class Main extends LitElement {
         </div>
         <div class="links">
           <div class="linkButtons">
-            <link-button iconColor="red" title="이용 가이드"></link-button>
-            <link-button title="워크샵 신청"></link-button>
-            <link-button title="검사 시스템"></link-button>
+            <link-button iconColor="#90C47D" title="이용 가이드"></link-button>
+            <link-button iconColor="#587CA7" title="워크샵 신청"></link-button>
+            <link-button iconColor="#DAA5B9" title="검사 시스템"></link-button>
           </div>
         </div>
         <div class="products">
